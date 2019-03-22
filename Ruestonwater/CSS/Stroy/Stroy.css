@@ -1,0 +1,33 @@
+﻿.space{
+    height: 150px;
+}
+
+.container h1 {
+    color: #023668;
+    font-size: 50px;
+}
+.content-text p{
+    font-size: 18px;
+    margin-top: 8px;
+    text-align: left !important;
+    color: #003f87 !important;
+}
+
+.content-img {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-img2 {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-img3 {
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

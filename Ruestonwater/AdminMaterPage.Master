@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaterPage.master.cs" Inherits="Ruestonwater.AdminMaterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .fixed{
+            position:fixed;
+            top:0;
+
+        }
+        .left{
+            position:absolute;
+            width:40%;
+            left:0;
+        }
+        .right{
+            position:absolute;
+            width:60%;
+            right:0;
+        }
+        .right a{
+            margin-left: 3px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="left">
+                <h1>Manager Console Platform</h1>
+            </div>
+            <div class="right">
+                <a href="/console.aspx">Home Page</a>
+                <a href="#" >Stroy Page</a>
+                <a href="#">FAQ Page</a>
+                <a href="#">Full Screen Pages</a>
+            </div>
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+﻿.space {
+    height: 100px;
+}
+
+.panel-heading {
+    letter-spacing: 1px;
+    background-color: #eee;
+    color: #003f87 !important;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1vw;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+    .panel-heading:hover {
+        background-color: #ccc;
+    }
+
+.panel-body {
+    color: #003f87 !important;
+}
+
+.panel-title > a {
+    text-decoration: none;
+}
+
+.container h2 {
+    color: #003f87;
+    letter-spacing: 2px;
+    font-weight:400;
+}

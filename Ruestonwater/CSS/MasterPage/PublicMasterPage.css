@@ -1,0 +1,107 @@
+﻿
+.navbar {
+    margin-bottom: 0 !important;
+    background-color:#ffffff;
+}
+    .navbar.center .navbar-inner {
+        text-align: center;
+        color: #023668;
+    }
+
+        .navbar.center .navbar-inner .nav {
+            float: none;
+            display: inline-block;
+            vertical-align: middle;
+            color: #023668;
+        }
+.navbar-default .navbar-nav > li > a {
+    color: #023668;
+}
+    .navbar-default .navbar-nav > li > a:hover {
+        color: grey;
+    }
+
+    .navbar-right {
+        margin: 0 !important;
+    }
+    .navbar-right>li{
+        right:30px;
+    }
+    #wechat{
+        padding-right:0;
+    }   
+
+#navbarIcon {
+    position: absolute;
+    right: 0;
+    padding-right: 4vw;
+}
+
+    #navbarIcon img {
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+        #navbarIcon img:hover {
+            transform: scale(1.3);
+        }
+
+#wcic a {
+    position: relative;
+}
+
+    #wcic a img {
+        position: absolute;
+        /*opacity: 0;*/
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        display: none;
+        transition: opacity .5s;
+    }
+
+#img1 {
+    transition: all 0.3s;
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.footer {
+    overflow: hidden;
+    position: relative;
+    bottom: 0;
+    height: 70px;
+}
+
+    .footer p {
+        color: #023668;
+        font-family: 'Raleway', sans-serif;
+        position: relative;
+        top: 20%;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .footer img {
+        width: 35%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+#declaimer p a {
+    color: #023668;
+    float: right;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+    #declaimer p a:hover {
+        color: #9d9d9d;
+        cursor: pointer;
+    }

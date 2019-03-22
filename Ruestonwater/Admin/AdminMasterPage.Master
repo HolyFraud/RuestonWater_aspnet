@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="Ruestonwater.Admin.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        .fixed {
+            position: fixed;
+            top: 0;
+            margin-left: 160px;
+        }
+
+        .left {
+            position: relative;
+            width: 40%;
+            left: 0;
+        }
+
+        .right {
+            position: relative;
+            width: 60%;
+            right: 0;
+        }
+
+            .right a {
+                margin-left: 3px;
+            }
+
+        .sidenav {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+            .sidenav a {
+                padding: 6px 8px 6px 16px;
+                text-decoration: none;
+                font-size: 16px;
+                color: #023668;
+                display: block;
+            }
+
+                .sidenav a:hover {
+                    color: grey;
+                }
+
+        .main {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            padding: 0px 10px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div class="sidenav">
+            <img src="../Images/logo_rswoater.png" style="width: 110px; padding-left: 15px;" />
+            <div style="height: 80px;"></div>
+            <a href="/Admin/AdminPermission.aspx">Permission Control</a>
+            <a href="/Admin/index.aspx">Home Page</a>
+            <a href="/Admin/Story.aspx">Story Page</a>
+            <a href="/Admin/FAQ.aspx">FAQ Page</a>
+            <a href="/Admin/Fullscreen.aspx">FullScreen Page</a>
+        </div>
+
+        <div class="main">
+            <div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

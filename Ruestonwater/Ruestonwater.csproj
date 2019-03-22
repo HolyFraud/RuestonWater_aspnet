@@ -1,0 +1,232 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68B97175-1E75-40EB-AE7C-27C23A52A323}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ruestonwater</RootNamespace>
+    <AssemblyName>Ruestonwater</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMasterPage.Master" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Admin\FAQ.aspx" />
+    <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\Story.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="Images\qrcode_wechat.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="PublicMasterPage.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSS\bootstrap.min.css" />
+    <Content Include="CSS\faq\faq.css" />
+    <Content Include="CSS\Index.css" />
+    <Content Include="CSS\MasterPage\bootstrap.min.css" />
+    <Content Include="CSS\MasterPage\PublicMasterPage.css" />
+    <Content Include="CSS\Stroy\Stroy.css" />
+    <Content Include="Images\bg_aulife_s4.jpg" />
+    <Content Include="Images\bg_aulife_slide4_1.jpg" />
+    <Content Include="Images\bg_aumade_slide1.jpeg" />
+    <Content Include="Images\bg_aumade_slide2.jpg" />
+    <Content Include="Images\bg_aumade_slide3.jpg" />
+    <Content Include="Images\bg_aumade_slide4.jpg" />
+    <Content Include="Images\bg_bpower_orange.jpg" />
+    <Content Include="Images\bg_bpower_s3.jpg" />
+    <Content Include="Images\bg_bpower_s4.jpg" />
+    <Content Include="Images\bg_bpower_slide1.jpg" />
+    <Content Include="Images\bg_home_para2_1.jpg" />
+    <Content Include="Images\bg_jason.jpg" />
+    <Content Include="Images\bg_vegan.jpg" />
+    <Content Include="Images\bg_vegefruit.png" />
+    <Content Include="Images\home_sectionimg_bpower_bottle_11.jpg" />
+    <Content Include="Images\home_section\img_bottom.png" />
+    <Content Include="Images\home_section\img_bpower_bottle_11.jpg" />
+    <Content Include="Images\home_slider1.jpg" />
+    <Content Include="Images\home_slider2.jpg" />
+    <Content Include="Images\home_slider3.jpg" />
+    <Content Include="Images\home_slider4.jpg" />
+    <Content Include="Images\home_slider\bg_aumade_slide4.jpg" />
+    <Content Include="Images\home_slider\home_slider1.jpg" />
+    <Content Include="Images\home_slider\home_slider2.jpg" />
+    <Content Include="Images\home_slider\home_slider3.jpg" />
+    <Content Include="Images\home_slider\home_slider4.jpg" />
+    <Content Include="Images\icon-ins.png" />
+    <Content Include="Images\icon_ins2.png" />
+    <Content Include="Images\icon_wechat2.png" />
+    <Content Include="Images\img_bottom.png" />
+    <Content Include="Images\img_bpower_bottle.png" />
+    <Content Include="Images\img_bpower_bottle1.jpg" />
+    <Content Include="Images\img_bpower_bottle_11.jpg" />
+    <Content Include="Images\img_carrot.jpeg" />
+    <Content Include="Images\img_home_sec2.jpg" />
+    <Content Include="Images\img_longtou.jpeg" />
+    <Content Include="Images\img_rueston.jpeg" />
+    <Content Include="Images\img_singlebottom.jpeg" />
+    <Content Include="Images\img_stuffholdwater.jpg" />
+    <Content Include="Images\img_wave.jpeg" />
+    <Content Include="Images\logo_rswoater.png" />
+    <Content Include="Images\logo_ruswater.jpeg" />
+    <Content Include="Images\story_img2.jpeg" />
+    <Content Include="Images\stroy_img3.jpeg" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\faq\bootstrap.min.js" />
+    <Content Include="JS\faq\jquery.min.js" />
+    <Content Include="JS\jquery.min.js" />
+    <Content Include="JS\MasterPage\bootstrap.min.js" />
+    <Content Include="JS\MasterPage\jquery.min.js" />
+    <Content Include="Story.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AdminMasterPage.Master.cs">
+      <DependentUpon>AdminMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMasterPage.Master.designer.cs">
+      <DependentUpon>AdminMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Story.aspx.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Story.aspx.designer.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublicMasterPage.Master.cs">
+      <DependentUpon>PublicMasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PublicMasterPage.Master.designer.cs">
+      <DependentUpon>PublicMasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Story.aspx.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Story.aspx.designer.cs">
+      <DependentUpon>Story.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49931</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49931/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
