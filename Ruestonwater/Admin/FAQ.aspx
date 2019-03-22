@@ -92,7 +92,7 @@
                         <asp:TextBox runat="server" Rows="4" TextMode="MultiLine" Style="Width:540px;" Text='<%# Eval("QuestionContent") %>' />
                     </EditItemTemplate>
                 </asp:TemplateField>
-                <asp:CheckBoxField DataField="RecordState" HeaderText="RecordState" SortExpression="RecordState"></asp:CheckBoxField>
+                <asp:CheckBoxField DataField="RecordState" HeaderText="Activate_State" SortExpression="RecordState"></asp:CheckBoxField>
                 <asp:CommandField ShowEditButton="True" />
                 <asp:TemplateField>
                     <ItemTemplate>

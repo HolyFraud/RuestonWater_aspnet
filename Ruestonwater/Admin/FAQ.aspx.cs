@@ -14,10 +14,7 @@ namespace Ruestonwater.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack)
-            {
-                GridViewQuestion.DataBind();
-            }
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -32,6 +29,9 @@ namespace Ruestonwater.Admin
             string answer = tbAnswer.Text;
             answer = answer.Replace("'", "''");
             Util.ExecuteQuery("Insert Into QuestionList values('" + questionname + "', '" + answer + "', 1)");
+            GridViewQuestion.DataBind();
+            tbQuestionName.Text = "";
+            tbAnswer.Text = "";
         }
 
         protected void Button2_Click(object sender, EventArgs e)
