@@ -1,0 +1,133 @@
+﻿body {
+}
+
+.section {
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    text-align: center;
+}
+
+#p1 {
+    text-align: left;
+}
+
+    #p1 #main {
+        height: 500px;
+        margin-top: calc(45vh - 15vw);
+        position: relative;
+        left: 20%;
+    }
+
+        #p1 #main #p1_bottle {
+            /*width: 25%;
+            max-width: 480px;*/
+            max-height: 610px;
+        }
+
+        #p1 #main #p1_text {
+            display: inline-block;
+            color: #023668;
+            width: 500px;
+            line-height: 170%;
+            margin-left: 10%;
+            position: relative;
+            top: 80px;
+        }
+
+        #p1 #main h1 {
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        #p1 #main b {
+            margin-top: 5px;
+            display: inline-block;
+        }
+
+        #p1 #main #p1_text p {
+            margin: 0px;
+            font-size: 22px;
+        }
+
+
+#p2 {
+    text-align: left;
+    background-image: url(/Images/bg_bpower_orange.jpg);
+}
+
+    #p2 #p2_text {
+        display: inline-block;
+        color: #023668;
+        width: 500px;
+        line-height: 170%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+        #p2 #p2_text h1 {
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        #p2 #p2_text p {
+            margin: 0px;
+            font-size: 22px;
+        }
+
+        #p2 #p2_text b {
+            font-size: 25px;
+            margin-top: 5px;
+            display: inline-block;
+        }
+
+#p3 {
+    text-align: left;
+    background-image: url(/Images/bg_bpower_s3.jpg);
+}
+
+    #p3 #p3_text {
+        display: inline-block;
+        color: #023668;
+        width: 600px;
+        line-height: 170%;
+        position: relative;
+        right: 10%;
+        float: right;
+        bottom: 20%;
+    }
+
+        #p3 #p3_text h1 {
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        #p3 #p3_text p {
+            margin: 0px;
+            font-size: 22px;
+        }
+
+#p4 {
+    text-align: left;
+    background-image: url(/Images/bg_bpower_s4.jpg);
+}
+
+    #p4 #p4_text {
+        display: inline-block;
+        color: #023668;
+        width: 600px;
+        line-height: 170%;
+        position: relative;
+        right: 20%;
+        float: right;
+    }
+
+        #p4 #p4_text h1 {
+            display: inline-block;
+            font-size: 50px;
+        }
+
+        #p4 #p4_text p {
+            margin: 0px;
+            font-size: 22px;
+        }

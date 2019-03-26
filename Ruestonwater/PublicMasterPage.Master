@@ -7,8 +7,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="CSS/MasterPage/bootstrap.min.css" rel="stylesheet" />
-    <%--<script src="JS/MasterPage/jquery.min.js"></script>
-    <script src="JS/MasterPage/bootstrap.min.js"></script>--%>
     <link href="CSS/MasterPage/PublicMasterPage.css" rel="stylesheet" />
     <link rel="shortcut icon" href="">
 
@@ -41,9 +39,9 @@
             <li><a href="/Index.aspx">Home</a></li>
             <li><a href="/Story.aspx">Stroy</a></li>
             <li><a href="/FAQ.aspx">FAQ</a></li>
-            <li><a href="/Story.aspx">Botanical Power</a></li>
-            <li><a href="/Story.aspx">Australian LifeStyle</a></li>
-            <li><a href="/Story.aspx">100% AUS Made</a></li>
+            <li><a href="/BotanicalPower.aspx">Botanical Power</a></li>
+            <li><a href="/AustralianLife.aspx">Australian LifeStyle</a></li>
+            <li><a href="/AustralianMade.aspx">100% AUS Made</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
         <li><a id="wechat" href="#"><img src="Images/icon_wechat2.png" id="wx" onmouseover="show('img1')" onmouseout="hide('img1')" class="icon" /><img src="Images/qrcode_wechat.png" id="img1" /></a></li>

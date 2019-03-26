@@ -1,0 +1,116 @@
+﻿body {
+}
+
+.section {
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    text-align: center;
+    color: #fff;
+}
+#p1{
+    text-align: left;
+}
+    #p1 h1 {
+        width: 41vw;
+        color: #fff;
+        right: -55%;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        font-size: 2.2vw !important;
+        position: relative;
+    }
+    #p1 p {
+        width: 41vw;
+        color: #fff;
+        top: -1%;
+        right: -55%;
+        border-bottom-right-radius: 25px;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        position: relative;
+        font-size: 1.2vw;
+    }
+
+#p2 {
+    text-align: left;
+}
+
+    #p2 h1 {
+        padding: 10px;
+        color: #fff;
+        left: 4%;
+        width: 40%;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        font-size: 2.2vw !important;
+        position: relative;
+    }
+    #p2 p {
+        padding: 10px;
+        color: #fff;
+        top: -1%;
+        left: 4%;
+        width: 40%;
+        border-bottom-right-radius: 25px;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        position: relative;
+        text-align: left;
+        font-size: 1.2vw;
+    }
+
+#p3 {
+    text-align: left;
+}
+    #p3 h1 {
+        padding: 10px;
+        color: #fff;
+        left: 4%;
+        width: 40%;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        font-size: 2.2vw !important;
+        position: relative;
+    }
+
+    #p3 p {
+        padding: 10px;
+        color: #fff;
+        top: -1%;
+        left: 4%;
+        width: 40%;
+        border-bottom-right-radius: 25px;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        position: relative;
+        text-align: left;
+        font-size: 1.2vw;
+    }
+
+#p4 {
+    text-align: left;
+}
+
+    #p4 h1 {
+        width: 45vw;
+        left: 28%;
+        right: 28%;
+        transform: translate(0,0);
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        font-size: 2.2vw !important;
+        position: relative;
+    }
+    #p4 p {
+        width: 45vw;
+        top: -1%;
+        left: 55%;
+        transform: translate(-60%, 0%);
+        border-bottom-right-radius: 25px;
+        background-color: rgba(0,0,0,0.3);
+        padding: 10px;
+        position: relative;
+        text-align: left;
+        font-size: 1.2vw;
+    }

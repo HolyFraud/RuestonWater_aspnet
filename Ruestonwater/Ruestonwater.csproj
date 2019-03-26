@@ -60,12 +60,42 @@
   <ItemGroup>
     <Content Include="Admin\AdminMasterPage.Master" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
+    <Content Include="Admin\AustralianLife.aspx" />
+    <Content Include="Admin\AustralianMade.aspx" />
+    <Content Include="Admin\BotanicalPower.aspx" />
     <Content Include="Admin\FAQ.aspx" />
     <Content Include="Admin\Index.aspx" />
     <Content Include="Admin\Story.aspx" />
+    <Content Include="AustralianLife.aspx" />
+    <Content Include="AustralianMade.aspx" />
+    <Content Include="BotanicalPower.aspx" />
+    <Content Include="CSS\AustralianLife\AustralianLife.css" />
+    <Content Include="CSS\AustralianMade\AustralianMade.css" />
+    <Content Include="CSS\BotanicalPower\BotanicalPower.css" />
+    <Content Include="CSS\jquery.fullPage.css" />
     <Content Include="FAQ.aspx" />
+    <Content Include="Images\AustralianLife\bg_aulife_section21.jpg" />
+    <Content Include="Images\AustralianLife\bg_aulife_slide1_1.jpg" />
+    <Content Include="Images\AustralianLife\bg_aulife_slide4_1.jpg" />
+    <Content Include="Images\AustralianLife\bg_jason.jpg" />
+    <Content Include="Images\AustralianMade\bg_aumade_slide1.jpeg" />
+    <Content Include="Images\AustralianMade\bg_aumade_slide2.jpg" />
+    <Content Include="Images\AustralianMade\bg_aumade_slide3.jpg" />
+    <Content Include="Images\AustralianMade\bg_aumade_slide4.jpg" />
+    <Content Include="Images\AustralianMade\img-cute-cat.jpg" />
+    <Content Include="Images\AustralianMade\img-cute-dog.jpg" />
+    <Content Include="Images\AustralianMade\img-dog1.jpg" />
+    <Content Include="Images\AustralianMade\img-dog2.jpg" />
+    <Content Include="Images\BotanicalPower\bg_bpower_orange.jpg" />
+    <Content Include="Images\BotanicalPower\bg_bpower_s3.jpg" />
+    <Content Include="Images\BotanicalPower\bg_bpower_s4.jpg" />
+    <Content Include="Images\BotanicalPower\bg_bpower_slide1.jpg" />
+    <Content Include="Images\BotanicalPower\img_bpower_slider1.jpg" />
     <Content Include="Images\qrcode_wechat.png" />
     <Content Include="Index.aspx" />
+    <Content Include="JS\FullPage\jquery-2.2.0.min.js" />
+    <Content Include="JS\FullPage\jquery.fullPage.js" />
+    <Content Include="JS\FullPage\jquery.fullPage.min.js" />
     <Content Include="PublicMasterPage.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -144,6 +174,27 @@
     <Compile Include="Admin\AdminMasterPage.Master.designer.cs">
       <DependentUpon>AdminMasterPage.Master</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AustralianLife.aspx.cs">
+      <DependentUpon>AustralianLife.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AustralianLife.aspx.designer.cs">
+      <DependentUpon>AustralianLife.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AustralianMade.aspx.cs">
+      <DependentUpon>AustralianMade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AustralianMade.aspx.designer.cs">
+      <DependentUpon>AustralianMade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BotanicalPower.aspx.cs">
+      <DependentUpon>BotanicalPower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BotanicalPower.aspx.designer.cs">
+      <DependentUpon>BotanicalPower.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\FAQ.aspx.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,6 +215,27 @@
     </Compile>
     <Compile Include="Admin\Story.aspx.designer.cs">
       <DependentUpon>Story.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AustralianLife.aspx.cs">
+      <DependentUpon>AustralianLife.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AustralianLife.aspx.designer.cs">
+      <DependentUpon>AustralianLife.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AustralianMade.aspx.cs">
+      <DependentUpon>AustralianMade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AustralianMade.aspx.designer.cs">
+      <DependentUpon>AustralianMade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BotanicalPower.aspx.cs">
+      <DependentUpon>BotanicalPower.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BotanicalPower.aspx.designer.cs">
+      <DependentUpon>BotanicalPower.aspx</DependentUpon>
     </Compile>
     <Compile Include="FAQ.aspx.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>

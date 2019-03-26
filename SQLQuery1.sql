@@ -7,10 +7,12 @@ select * from FileList
 select * from SectionList
 select * from File_SliderOrderList
 select * from test
-delete from File_SectionList
-delete from FileList
-delete from FileCaptionList
-delete from File_SliderOrderList
+--delete from File_SectionList
+--delete from FileList
+--delete from FileCaptionList
+--delete from File_SliderOrderList
+update ContentList Set ContentDesc = 'Botanical water is extracted from plants and purified by nature, it is free of toxic chemicals and can effectively avoid radioactive or toxic elements from building up in human body.' Where ContentItemListID = 4 and SectionListID = 15
+
 
 update FileList set RecordState = 0 From FileList Inner Join File_SectionList on FileList.FileListID = File_SectionList.FileListID Where File_SectionList.SectionListID = 3;
 

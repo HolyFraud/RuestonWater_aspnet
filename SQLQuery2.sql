@@ -4,9 +4,15 @@
 
 
 select * from ContentItemList
-select * from ContentList
-select * from Content_SectionList
+select * from ContentList order by ContentListID
+--select * from Content_SectionList
 select * from SectionList
+
+SELECT FileList.FileName 
+FROM File_SectionList INNER JOIN FileList 
+ON File_SectionList.FileListID = FileList.FileListID INNER JOIN SectionList 
+ON SectionList.SectionListID = File_SectionList.SectionListID 
+WHERE SectionList.SectionListID = 20 AND FileList.RecordState = 1
 
 SELECT FileList.FileName FROM File_SectionList INNER JOIN FileList ON File_SectionList.FileListID = FileList.FileListID WHERE FileList.RecordState = 1 AND File_SectionList.SectionListID = 4
 
