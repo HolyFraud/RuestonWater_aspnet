@@ -76,11 +76,10 @@
         <div class="sidenav">
             <img src="../Images/logo_rswoater.png" style="width: 110px; padding-left: 15px;" />
             <div style="height: 80px;"></div>
-            <a href="#">Permission Control</a>
+            <%--<a href="#">Permission Control</a>--%>
             <a href="/Admin/index.aspx">Home Page</a>
             <a href="/Admin/Story.aspx">Story Page</a>
             <a href="/Admin/FAQ.aspx">FAQ Page</a>
-            <a href="/Admin/Fullpage.aspx">FullScreen Page</a>
             <a href="/Admin/BotanicalPower.aspx">Botanical Power</a>
             <a href="/Admin/AustralianLife.aspx">Australian LifeStyle</a>
             <a href="/Admin/AustralianMade.aspx">100% Australian Made</a>

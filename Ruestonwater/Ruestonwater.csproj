@@ -65,6 +65,7 @@
     <Content Include="Admin\BotanicalPower.aspx" />
     <Content Include="Admin\FAQ.aspx" />
     <Content Include="Admin\Index.aspx" />
+    <Content Include="Admin\Login.aspx" />
     <Content Include="Admin\Story.aspx" />
     <Content Include="AustralianLife.aspx" />
     <Content Include="AustralianMade.aspx" />
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="Admin\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Story.aspx.cs">
       <DependentUpon>Story.aspx</DependentUpon>
