@@ -34,7 +34,7 @@
                 <asp:Repeater ID="ImgRepeater" runat="server" DataSourceID="SqlDataSourceHomeSlider">
                     <ItemTemplate>
                         <div class="item <%#GetActiveClass(Container.ItemIndex) %>">
-                            <img src="<%# "/Images/home_slider/" + Eval("FileName") %>" alt="" style="height: 100vh; width: 100vw; object-fit: cover;" />
+                            <div class="sliderbg" style='background-image:url(<%# "/Images/home_slider/" + Eval("FileName") %>)'></div>
                             <div class="carousel-caption"><p><%#Eval("Caption") %></p></div>
                         </div>
                     </ItemTemplate>
@@ -54,7 +54,7 @@
     
     <div class="container">
         <div class="row">
-            <div  class="col-sm-6 ">
+            <div  class="col-sm-6 " style="text-align:center;">
                 <asp:Image ID="HomeSection_1_img" runat="server" class="img-fluid"/>
             </div>
             <div class="col-sm-6">
@@ -102,7 +102,7 @@
 
     <div class="container pt-5 ">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6" style="text-align:center;">
                 <asp:Image ID="HomeSection_3_Img" runat="server" class="img-fluid"/>
             </div>
             <div class="col-sm-6">

@@ -38,4 +38,7 @@
         </div>
     </div>
     <div class="space"></div>
+
+    <script src="JS/faq/jquery.min.js"></script>
+    <script src="JS/faq/bootstrap.min.js"></script>
 </asp:Content>

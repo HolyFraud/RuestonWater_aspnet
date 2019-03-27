@@ -90,7 +90,7 @@
     <Content Include="Images\BotanicalPower\bg_bpower_s3.jpg" />
     <Content Include="Images\BotanicalPower\bg_bpower_s4.jpg" />
     <Content Include="Images\BotanicalPower\bg_bpower_slide1.jpg" />
-    <Content Include="Images\BotanicalPower\img_bpower_slider1.jpg" />
+    <Content Include="Images\BotanicalPower\img_bpower_bottle.jpg" />
     <Content Include="Images\qrcode_wechat.png" />
     <Content Include="Index.aspx" />
     <Content Include="JS\FullPage\jquery-2.2.0.min.js" />

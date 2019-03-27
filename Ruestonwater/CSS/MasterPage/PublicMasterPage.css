@@ -1,8 +1,9 @@
 ﻿
 .navbar {
     margin-bottom: 0 !important;
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
+
     .navbar.center .navbar-inner {
         text-align: center;
         color: #023668;
@@ -14,22 +15,27 @@
             vertical-align: middle;
             color: #023668;
         }
+
 .navbar-default .navbar-nav > li > a {
     color: #023668;
 }
+
     .navbar-default .navbar-nav > li > a:hover {
         color: grey;
     }
 
-    .navbar-right {
-        margin: 0 !important;
+.navbar-right {
+    margin-bottom: 0px;
+}
+
+    .navbar-right > li {
+        right: 30px;
     }
-    .navbar-right>li{
-        right:30px;
-    }
-    #wechat{
-        padding-right:0;
-    }   
+
+#wechat {
+    padding-right: 0;
+    padding-left: 0;
+}
 
 #navbarIcon {
     position: absolute;
@@ -105,3 +111,13 @@
         color: #9d9d9d;
         cursor: pointer;
     }
+
+@media only screen and (max-width: 768px) {
+    #wechat, #img1, #ins {
+        display: none;
+    }
+
+    #ft1, #declaimer {
+        display: none;
+    }
+}

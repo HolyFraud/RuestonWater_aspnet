@@ -12,7 +12,7 @@ SELECT FileList.FileName
 FROM File_SectionList INNER JOIN FileList 
 ON File_SectionList.FileListID = FileList.FileListID INNER JOIN SectionList 
 ON SectionList.SectionListID = File_SectionList.SectionListID 
-WHERE SectionList.SectionListID = 20 AND FileList.RecordState = 1
+WHERE SectionList.SectionListID = 23 AND FileList.RecordState = 1
 
 SELECT FileList.FileName FROM File_SectionList INNER JOIN FileList ON File_SectionList.FileListID = FileList.FileListID WHERE FileList.RecordState = 1 AND File_SectionList.SectionListID = 4
 

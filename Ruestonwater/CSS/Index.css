@@ -1,79 +1,78 @@
 
-html,body{
+html, body {
     height: 65vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.sliderbg {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container-fluid {
     padding-right: 0;
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
 }
-    .container-fluid a{
+
+    .container-fluid a {
         text-decoration: none;
         color: #ffffff;
     }
-    .row {
-        margin-right: 0;
-        margin-left: 0;
-    }
 
-*{
-    
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
 
 
 
-/*.logo{
-    width: 10%;
-}*/
-
-.main{
+.main {
     width: 100%;
     height: 4vw;
     overflow: hidden;
     border-bottom: 0px;
 }
-#rswater{
+
+#rswater {
     width: 25%;
 }
-.wrapper{
-    height: 100%;
-    background-image: url(../Images/home_slider1.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-#sec1 h1{
-    font-family: 'Open Sans Condensed', sans-serif;
+
+#sec1 h1 {
     font-size: 3.2vw !important;
     color: #023668 !important;
 }
+
 #ContentPlaceHolder1_HomeSection_1_img {
     max-height: 600px;
     position: relative;
-    left: 50%;
 }
+
 #ContentPlaceHolder1_HomeSection_3_Img {
     max-height: 600px;
     position: relative;
 }
-/*#wx{
-    width: 23px;
-}*/
-.container{
+
+.container {
     margin-top: 6rem;
     margin-bottom: 12rem;
 }
-    .container h2{
-    font-size: 32px !important;
-    color: #023668 !important;
-    line-height: 28px;
+
+    .container h2 {
+        font-size: 32px !important;
+        color: #023668 !important;
+        line-height: 28px;
     }
+
     .container a {
         color: #023668 !important;
         font-size: 16px !important;
@@ -82,22 +81,22 @@ html,body{
     }
 
 
-.btnlink{
-    
+.btnlink {
 }
-#storylink:hover{
+
+#storylink:hover {
     transition: 0.4s;
     border: 2px solid #e7e7e7;
 }
 
-.slider{
+.slider {
     width: 100%;
     height: 100vh;
     overflow: hidden;
     border-bottom: 0px;
 }
 
-.slides{
+.slides {
     width: 100%;
     height: 100vh;
 }
@@ -105,60 +104,16 @@ html,body{
 
 
 
-/*.icon{
-    width: 26px;
-}
-.navbar{
-    text-align: center;
-}
-.navbar #logo{
-    transition: 0.4s;
-}
-#navbarNav{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,0);
-    z-index: 3;
-    -webkit-transform: translate(-50%, 0);
-}
-#navbarNav a{
-    padding-right: 0;
-    letter-spacing: 1px;
-    font-family: 'Raleway', sans-serif;
-    color: #023668;
-}
-#navbarNav a:hover{
-    color: #9d9d9d;
-}
-.navbar {
-    background-color: rgba(255,255,255,1);
-    height: 4vw;
-    transition: 0.4s;
-    border-bottom: 1px solid #9d9d9d !important;
-}
-
-.nav-link .navbar-brand{
-    overflow-x: hidden ;
-    color: #023668 !important;
-}
-
-.nav-link{
-    font-size: 13px;
-}*/
-
-
-
 .content {
-    /*padding-top: 25vw;*/
-   margin-bottom: 4vw;
+    margin-bottom: 4vw;
 }
 
 
-h1{
+h1 {
     font-size: 3.9vw !important;
 }
 
-p{
+p {
     font-size: 22px;
     text-align: center;
 }
@@ -173,26 +128,30 @@ p{
     color: white;
     display: flex;
 }
-.row{
-    width:100%;
-    margin:0 auto;
+
+.row {
+    width: 100%;
+    margin: 0 auto;
 }
+
 .parallaxbox {
     padding: 0 20px;
-    width:50%;
+    width: 50%;
     margin: 0 auto;
     height: 610px;
     width: 500px;
     background-color: rgba(255,255,255,0.3);
 }
-.parallaxbox h2{
-    font-size:32px;
-}
-.parallaxbox a{
-    font-size:16px;
-}
 
-.btnlink{
+    .parallaxbox h2 {
+        font-size: 32px;
+    }
+
+    .parallaxbox a {
+        font-size: 16px;
+    }
+
+.btnlink {
     color: #ffffff !important;
     font-size: 20px;
     font-weight: 700;
@@ -204,113 +163,82 @@ p{
     cursor: pointer;
     text-decoration: none;
 }
-.btnlink:hover{
-    text-decoration: none;
-    background-color: #a3af07;
-}
 
-input[type="text"]{
+    .btnlink:hover {
+        text-decoration: none;
+        background-color: #a3af07;
+    }
+
+input[type="text"] {
     width: 18vw;
 }
 
-input[type="button"]{
+input[type="button"] {
     width: 36.7vw;
 }
 
-textarea{
+textarea {
     width: 36.7vw;
 }
 
-.parallax2{
+.parallax2 {
     height: 610px;
     background-image: url(../Images/bg_home_para2_1.jpg);
     background-position: 0 9%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     color: white;
     display: flex;
 }
 
 
-.parallax2 .parallaxbox h2{
-    font-size: 32px;
-    margin-top:25%;
-}
+    .parallax2 .parallaxbox h2 {
+        font-size: 32px;
+        margin-top: 25%;
+    }
 
 
-.btn1{
+.btn1 {
     float: left;
     background-color: transparent !important;
-    color: white!important;
+    color: white !important;
 }
 
-.btn2{
+.btn2 {
     float: right;
     background-color: transparent !important;
-    color: white!important;
+    color: white !important;
 }
 
-.cols3{
+.cols3 {
     position: relative
 }
 
-.count{
+.count {
     position: absolute;
-    top:0;bottom: 0;left: 0;right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding-top: 8vh;
 }
 
 
-.rights{
+.rights {
     position: absolute;
     bottom: 0;
     color: black;
-    
 }
 
-/*#navbarIcon{
-    position: absolute;
-    right: 0;
-    padding-right: 4vw;
-}
-#navbarIcon img{
-    cursor: pointer;
-    transition: 0.4s;
-}
-#navbarIcon img:hover{
-    transform: scale(1.3);
-}
-
-#wcic a{
-    position: relative;
-}
-#wcic a img{
-    position: absolute;
-    /*opacity: 0;*/
-    width: 100px;
-    height: 100px;
-    margin-top: 5px;
-    display: none;
-    transition: opacity .5s;
-}
-
-/*#img1{
-    transition: all 0.3s;
-    display: none;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    margin-top:5px;
-}*/
 
 
-.mobile-container{
+.mobile-container {
     z-index: 1;
     display: none;
 }
 
-#test{
+#test {
     object-fit: cover;
     height: 100vh;
     width: 100%;
@@ -319,93 +247,41 @@ textarea{
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
-#test h3{
-    position: absolute;
-    color: #fff;
-    left: 50%;
-    top: 50%;
-    font-size: 50px;
-}
-/*#carouselExampleControls{
-    top: -77px !important;
-}*/
-#slider_1{
+
+    #test h3 {
+        position: absolute;
+        color: #fff;
+        left: 50%;
+        top: 50%;
+        font-size: 50px;
+    }
+
+#slider_1 {
     background: url(../Images/home_slider1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
-#slider_2{
+
+#slider_2 {
     background-image: url(../Images/home_slider2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#slider_3{
+
+#slider_3 {
     background-image: url(../Images/home_slider3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-#carouselExampleControls h1{
+
+#carouselExampleControls h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     color: #fff;
 }
-.carousel-caption p{
+
+.carousel-caption p {
     margin-bottom: 30%;
     font-size: 75px;
 }
-/*@media only screen and (max-width: 600px){
-          
-    .main{
-        height: 0px;
-        
-    }
-    #navbar{
-        display: none;
-    }
-    .mobile-container {
-        z-index: 1;
-        display: block;
-        margin: auto;
-        color: white;
-        border-radius: 10px;
-    }
-
-    .topnav {
-        overflow: hidden;
-        background-color: rgb(221, 221, 221);
-;
-        position: relative;
-    }
-
-    .topnav #myLinks {
-        display: none;
-    }
-
-    .topnav a {
-        color: #023668;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-    }
-
-    .topnav a.toggle {
-        background: #ddd;
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
-    .active1 {
-        background-color: #fff;
-        color: white;
-    }
-}*/
-

@@ -74,6 +74,6 @@
 
     </div>
 
-
+    <script src="JS/faq/bootstrap.min.js"></script>
 </asp:Content>
 
