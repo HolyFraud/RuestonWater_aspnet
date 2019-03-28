@@ -14,7 +14,16 @@ namespace Ruestonwater.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+            if (1 != Convert.ToInt32(Session["ManagerActive"]))
+            {
+                Response.Redirect("/Admin/Login.aspx");
+            }
+            else
+            {
+
+            }
+
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)

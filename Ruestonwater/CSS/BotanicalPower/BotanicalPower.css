@@ -1,4 +1,18 @@
-﻿body {
+﻿@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../Fonts/Raleway/raleway-v13-latin-300.eot');
+    src: local('Raleway Light'), local('Raleway-Light'), url('../../fonts/raleway-v13-latin-300.eot?#iefix') format('embedded-opentype'), url('../../Fonts/Raleway/raleway-v13-latin-300.woff2') format('woff2'), url('../../Fonts/Raleway/raleway-v13-latin-300.woff') format('woff'), url('../../Fonts/Raleway/raleway-v13-latin-300.ttf') format('truetype'), url('../../Fonts/Raleway/raleway-v13-latin-300.svg#Raleway') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.eot);
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url('../../fonts/open-sans-condensed-v13-latin-300.eot?#iefix') format('embedded-opentype'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff2') format('woff2'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff') format('woff'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.ttf') format('truetype'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.svg#OpenSansCondensed') format('svg');
 }
 
 .section {
@@ -20,8 +34,6 @@
     }
 
         #p1 #main #p1_bottle {
-            /*width: 25%;
-            max-width: 480px;*/
             max-height: 610px;
         }
 
@@ -36,8 +48,9 @@
         }
 
         #p1 #main h1 {
+            font-family: 'Open Sans Condensed', sans-serif;
             display: inline-block;
-            font-size: 50px;
+            font-size: 45px;
         }
 
         #p1 #main b {
@@ -46,8 +59,9 @@
         }
 
         #p1 #main #p1_text p {
+            font-family: Raleway, sans-serif;
             margin: 0px;
-            font-size: 22px;
+            font-size: 18px;
         }
 
 
@@ -66,13 +80,15 @@
     }
 
         #p2 #p2_text h1 {
+            font-family: 'Open Sans Condensed', sans-serif;
             display: inline-block;
-            font-size: 50px;
+            font-size: 45px;
         }
 
         #p2 #p2_text p {
+            font-family: Raleway, sans-serif;
             margin: 0px;
-            font-size: 22px;
+            font-size: 18px;
         }
 
         #p2 #p2_text b {
@@ -98,13 +114,15 @@
     }
 
         #p3 #p3_text h1 {
+            font-family: 'Open Sans Condensed', sans-serif;
             display: inline-block;
-            font-size: 50px;
+            font-size: 45px;
         }
 
         #p3 #p3_text p {
+            font-family: Raleway, sans-serif;
             margin: 0px;
-            font-size: 22px;
+            font-size: 18px;
         }
 
 #p4 {
@@ -123,13 +141,15 @@
     }
 
         #p4 #p4_text h1 {
+            font-family: 'Open Sans Condensed', sans-serif;
             display: inline-block;
-            font-size: 50px;
+            font-size: 45px;
         }
 
         #p4 #p4_text p {
+            font-family: Raleway, sans-serif;
             margin: 0px;
-            font-size: 22px;
+            font-size: 18px;
         }
 
 @media only screen and (max-width: 1800px) {
@@ -172,11 +192,13 @@
     }
 
     #p1 #main h1 {
+        font-family: 'Open Sans Condensed', sans-serif;
         display: inline-block;
-        font-size: 30px;
+        font-size: 40px;
     }
 
     #p1 #main #p1_text p {
+        font-family: Raleway, sans-serif;
         margin: 0px;
         font-size: 18px;
     }
@@ -208,10 +230,12 @@
         }
 
         #p1 #main #p1_text h1 {
-            font-size: 25px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 40px;
         }
 
         #p1 #main #p1_text p {
+            font-family: Raleway, sans-serif;
             font-size: 16px;
         }
 }
@@ -233,10 +257,12 @@
         }
 
             #p2 #p2_text h1 {
-                font-size: 25px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 40px;
             }
 
             #p2 #p2_text p {
+                font-family: Raleway, sans-serif;
                 font-size: 16px;
             }
 }
@@ -260,10 +286,12 @@
         }
 
             #p3 #p3_text h1 {
-                font-size: 25px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 40px;
             }
 
             #p3 #p3_text p {
+                font-family: Raleway, sans-serif;
                 font-size: 16px;
             }
 }
@@ -287,10 +315,12 @@
         }
 
             #p4 #p4_text h1 {
-                font-size: 25px;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 40px;
             }
 
             #p4 #p4_text p {
+                font-family: Raleway, sans-serif;
                 font-size: 16px;
             }
 }

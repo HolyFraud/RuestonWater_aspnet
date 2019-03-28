@@ -1,4 +1,21 @@
-﻿.space {
+﻿@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../../Fonts/Raleway/raleway-v13-latin-300.eot');
+    src: local('Raleway Light'), local('Raleway-Light'), url('../../fonts/raleway-v13-latin-300.eot?#iefix') format('embedded-opentype'), url('../../Fonts/Raleway/raleway-v13-latin-300.woff2') format('woff2'), url('../../Fonts/Raleway/raleway-v13-latin-300.woff') format('woff'), url('../../Fonts/Raleway/raleway-v13-latin-300.ttf') format('truetype'), url('../../Fonts/Raleway/raleway-v13-latin-300.svg#Raleway') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.eot);
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url('../../fonts/open-sans-condensed-v13-latin-300.eot?#iefix') format('embedded-opentype'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff2') format('woff2'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff') format('woff'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.ttf') format('truetype'), url('../../Fonts/OpenSans/open-sans-condensed-v13-latin-300.svg#OpenSansCondensed') format('svg');
+}
+
+.space {
     height: 100px;
 }
 
@@ -22,14 +39,19 @@
     }
 
 .panel-body {
+    font-family: Raleway, sans-serif;
     color: #003f87 !important;
 }
 
 .panel-title > a {
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
     text-decoration: none;
 }
 
 .container h2 {
+    font-size: 40px;
+    font-family: 'Open Sans Condensed',sans-serif;
     color: #003f87;
     letter-spacing: 2px;
     font-weight:400;

@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../Fonts/Raleway/raleway-v13-latin-300.eot');
+    src: local('Raleway Light'), local('Raleway-Light'), url('../fonts/raleway-v13-latin-300.eot?#iefix') format('embedded-opentype'), url('../Fonts/Raleway/raleway-v13-latin-300.woff2') format('woff2'), url('../Fonts/Raleway/raleway-v13-latin-300.woff') format('woff'), url('../Fonts/Raleway/raleway-v13-latin-300.ttf') format('truetype'), url('../Fonts/Raleway/raleway-v13-latin-300.svg#Raleway') format('svg');
+}
+
+
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../Fonts/OpenSans/open-sans-condensed-v13-latin-300.eot); /* IE9 Compat Modes */
+    src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url('../fonts/open-sans-condensed-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../Fonts/OpenSans/open-sans-condensed-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../Fonts/OpenSans/open-sans-condensed-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../Fonts/OpenSans/open-sans-condensed-v13-latin-300.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
+}
 
 html, body {
     height: 65vh;
@@ -5,6 +25,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .sliderbg {
     height: 100vh;
     background-size: cover;
@@ -53,12 +74,12 @@ html, body {
 }
 
 #ContentPlaceHolder1_HomeSection_1_img {
-    max-height: 600px;
+    max-height: 500px;
     position: relative;
 }
 
 #ContentPlaceHolder1_HomeSection_3_Img {
-    max-height: 600px;
+    max-height: 500px;
     position: relative;
 }
 
@@ -68,14 +89,15 @@ html, body {
 }
 
     .container h2 {
-        font-size: 32px !important;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 40px !important;
         color: #023668 !important;
-        line-height: 28px;
     }
 
     .container a {
+        font-family: 'Raleway', sans-serif;
         color: #023668 !important;
-        font-size: 16px !important;
+        font-size: 18px !important;
         line-height: 28px;
         text-decoration: none;
     }
@@ -144,11 +166,13 @@ p {
 }
 
     .parallaxbox h2 {
-        font-size: 32px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 40px;
     }
 
     .parallaxbox a {
-        font-size: 16px;
+        font-family: 'Raleway',sans-serif;
+        font-size: 18px;
     }
 
 .btnlink {
@@ -188,14 +212,16 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-attachment: fixed;
     color: white;
     display: flex;
 }
 
 
     .parallax2 .parallaxbox h2 {
-        font-size: 32px;
+        font-size: 40px;
         margin-top: 25%;
+        font-family: 'Open Sans Condensed', sans-serif;
     }
 
 
@@ -282,6 +308,32 @@ textarea {
 }
 
 .carousel-caption p {
+    font-family: 'Open Sans Condensed', sans-serif;
     margin-bottom: 30%;
-    font-size: 75px;
+    font-size: 65px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .parallax {
+        height: 610px !important;
+        background-image: url(../Images/img_carrot.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        color: white;
+        display: flex;
+    }
+
+    .parallax2 {
+        height: 610px;
+        background-image: url(../Images/bg_home_para2_1.jpg);
+        background-position: 0 9%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: initial;
+        color: white;
+        display: flex;
+    }
 }

@@ -14,10 +14,18 @@ namespace Ruestonwater.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (1 != Convert.ToInt32(Session["ManagerActive"]))
             {
-                RefreshDropDownList();
+                Response.Redirect("/Admin/Login.aspx");
             }
+            else
+            {
+                if (!IsPostBack)
+                {
+                    RefreshDropDownList();
+                }
+            }
+            
         }
 
 

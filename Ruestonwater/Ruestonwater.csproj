@@ -58,7 +58,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
     <Content Include="Admin\AdminMasterPage.Master" />
+    <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.svg" />
+    <Content Include="Fonts\Raleway\raleway-v13-latin-300.eot" />
+    <Content Include="Fonts\Raleway\raleway-v13-latin-300.ttf" />
+    <Content Include="Fonts\Raleway\raleway-v13-latin-300.woff" />
+    <Content Include="Fonts\Raleway\raleway-v13-latin-300.woff2" />
+    <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.eot" />
+    <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.ttf" />
+    <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.woff" />
+    <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.woff2" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <Content Include="Admin\AustralianLife.aspx" />
     <Content Include="Admin\AustralianMade.aspx" />
@@ -75,6 +85,7 @@
     <Content Include="CSS\BotanicalPower\BotanicalPower.css" />
     <Content Include="CSS\jquery.fullPage.css" />
     <Content Include="FAQ.aspx" />
+    <Content Include="Fonts\Raleway\raleway-v13-latin-300.svg" />
     <Content Include="Images\AustralianLife\bg_aulife_section21.jpg" />
     <Content Include="Images\AustralianLife\bg_aulife_slide1_1.jpg" />
     <Content Include="Images\AustralianLife\bg_aulife_slide4_1.jpg" />

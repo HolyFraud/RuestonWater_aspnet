@@ -8,19 +8,76 @@
 
     <script>
         $(document).ready(function () {
-            $('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
-                navigation: true,
-                navigationPosition: 'right',
-                css3: true,
-                scrollingSpeed: 1000,
-                autoScrolling: true
-            });
+            if ($(window).width() < 768) {
+                $.fn.fullpage.destroy('all');
+            }
+            else {
+                $('#fullpage').fullpage({
+                    anchors: ['firstPage', 'secondPage', 'thirdPage', 'forthPage'],
+                    navigation: true,
+                    navigationPosition: 'right',
+                    css3: true,
+                    scrollingSpeed: 1000,
+                    autoScrolling: true
+                });
+            }
+
         });
     </script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="mobilecontainer">
+        <div id="mobile_p1" runat="server" ClientIDMode="Static">
+            <div id="mobile_p1contaner" class="p1_container" ClientIDMode="Static" runat="server">
+                
+            </div>
+            <div class="p1_mobiletext" ClientIDMode="Static" runat="server">
+                <h1><asp:label id="p1mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <h2><asp:label id="p1mobiletitle1" clientidmode="static" runat="server" text=""></asp:label></h2><br />
+                <p><asp:label id="p1mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
+            </div>
+        </div>
+        <br />
+        <div id="mobile_p2" ClientIDMode="Static" runat="server">
+            <div id="mobile_p2contaner" class="p2_container" ClientIDMode="Static" runat="server">
+                
+            </div>
+            <div class="p2_mobiletext">
+                <h1><asp:label id="p2mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <h2><asp:label id="p2mobiletitle1" clientidmode="static" runat="server" text=""></asp:label></h2><br />
+                <p><asp:label id="p2mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
+            </div>
+        </div>
+        <br />
+        <div id="mobile_p3" ClientIDMode="Static" runat="server">
+            <div id="mobile_p3contaner" class="p3_container" ClientIDMode="Static" runat="server">
+                
+            </div>
+            <div class="p3_mobiletext">
+                <h1><asp:label id="p3mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <h2><asp:label id="p3mobiletitle1" clientidmode="static" runat="server" text=""></asp:label></h2><br />
+                <p><asp:label id="p3mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
+            </div>
+        </div>
+
+        <br />
+        <div id="mobile_p4" ClientIDMode="Static" runat="server">
+            <div id="mobile_p4contaner" class="p4_container" ClientIDMode="Static" runat="server">
+                
+            </div>
+            <div class="p4_mobiletext">
+                <h1><asp:label id="p4mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <h2><asp:label id="p4mobiletitle1" clientidmode="static" runat="server" text=""></asp:label></h2><br />
+                <p><asp:label id="p4mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
+            </div>
+        </div>
+
+    </div>
+    <br /><br />
+
+
+
 
     <div id="fullpage">
         <div id="p1" runat="server" clientidmode="Static" class="section active">

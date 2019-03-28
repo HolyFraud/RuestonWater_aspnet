@@ -22,6 +22,7 @@ namespace Ruestonwater
             DisplayImage(2);
             DisplayImage(3);
             DisplayImage(4);
+
             DisplayParticularText(1, 23, p1title);
             DisplayParticularText(2, 23, p1title1);
             DisplayParticularText(4, 23, p1text);
@@ -34,6 +35,19 @@ namespace Ruestonwater
             DisplayParticularText(1, 26, p4title);
             DisplayParticularText(2, 26, p4title1);
             DisplayParticularText(4, 26, p4text);
+
+            DisplayParticularText(1, 23, p1mobiletitle);
+            DisplayParticularText(2, 23, p1mobiletitle1);
+            DisplayParticularText(4, 23, p1mobiletext);
+            DisplayParticularText(1, 24, p2mobiletitle);
+            DisplayParticularText(2, 24, p2mobiletitle1);
+            DisplayParticularText(4, 24, p2mobiletext);
+            DisplayParticularText(1, 25, p3mobiletitle);
+            DisplayParticularText(2, 25, p3mobiletitle1);
+            DisplayParticularText(4, 25, p3mobiletext);
+            DisplayParticularText(1, 26, p4mobiletitle);
+            DisplayParticularText(2, 26, p4mobiletitle1);
+            DisplayParticularText(4, 26, p4mobiletext);
         }
 
         private void DisplayParticularText(int ContentItemListID, int SectionListID, Label label)
@@ -66,6 +80,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p1.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
+                    mobile_p1contaner.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -79,6 +94,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p2.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
+                    mobile_p2contaner.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -92,7 +108,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p3.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
-
+                    mobile_p3contaner.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -106,7 +122,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p4.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
-
+                    mobile_p4contaner.Attributes.Add("style", "background-image:url(/Images/AustralianMade/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();

@@ -18,6 +18,27 @@
             document.getElementById(x).style.display = 'none';
         }
     </script>
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #023668;
+        }
+
+            /* Handle on hover */
+            ::-webkit-scrollbar-thumb:hover {
+                background: #777;
+            }
+    </style>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -32,9 +53,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/Index.aspx"><img src="Images/logo_rswoater.png" class="img-responsive" alt="logo"></a>
+        <a class="navbar-brand" href="/Index.aspx"><img src="Images/logo_ruswater.jpeg" class="img-responsive" alt="logo" style="width:100px; height:28px;"></a>
     </div>
-    <div class="navbar-inner collapse navbar-collapse">
+    <div class="navbar-inner collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav">
             <li><a href="/Index.aspx">Home</a></li>
             <li><a href="/Story.aspx">Story</a></li>

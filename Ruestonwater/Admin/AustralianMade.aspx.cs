@@ -14,11 +14,19 @@ namespace Ruestonwater.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            if (1 != Convert.ToInt32(Session["ManagerActive"]))
             {
-                DisplayImage();
-                DisplayText();
+                Response.Redirect("/Admin/Login.aspx");
             }
+            else
+            {
+                if (!IsPostBack)
+                {
+                    DisplayImage();
+                    DisplayText();
+                }
+            }
+            
         }
 
         private string FormatString(string txt)

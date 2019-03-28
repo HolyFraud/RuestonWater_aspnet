@@ -20,7 +20,7 @@ namespace Ruestonwater.Admin
         {
             SqlConnection sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLConnectionString"].ConnectionString);
             sqlConnection.Open();
-            string query = "select count(*) from ManagerList where UserName = '" + tbaccount.Text + "' And Password = '" + tbpassword.Text + "' And LastLogin = GETDATE()";
+            string query = "select count(*) from ManagerList where UserName = '" + tbaccount.Text + "' And Password = '" + tbpassword.Text + "'";
             SqlCommand cmd = new SqlCommand(query, sqlConnection);
             SqlDataReader reader = cmd.ExecuteReader();
             if (reader.Read())
@@ -32,6 +32,7 @@ namespace Ruestonwater.Admin
                     lblogin.Visible = true;
                     lblogin.Text = "Login Successfully...!";
                     Response.Redirect("/Admin/Index.aspx");
+                    Util.ExecuteQuery("Update ManagerList Set LastLogin = GETDATE() Where UserName = '" + tbaccount.Text + "' And Password = '" + tbpassword.Text + "'");
                 }
                 else
                 {
