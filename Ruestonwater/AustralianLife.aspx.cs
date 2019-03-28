@@ -29,6 +29,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p1.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
+                    mobile_p1contaner.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -42,6 +43,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p2.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
+                    mobile_p2contaner.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -55,7 +57,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p3.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
-
+                    mobile_p3contaner.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -69,7 +71,7 @@ namespace Ruestonwater
                 {
                     string FileName = reader[0].ToString();
                     p4.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
-
+                    mobile_p4contaner.Attributes.Add("style", "background-image:url(/Images/AustralianLife/" + FileName + ")");
                 }
                 reader.Close();
                 sqlConnection.Close();
@@ -109,6 +111,16 @@ namespace Ruestonwater
             DisplayParticularText(4, 21, p3text);
             DisplayParticularText(1, 22, p4title);
             DisplayParticularText(4, 22, p4text);
+
+
+            DisplayParticularText(1, 19, p1mobiletitle);
+            DisplayParticularText(4, 19, p1mobiletext);
+            DisplayParticularText(1, 20, p2mobiletitle);
+            DisplayParticularText(4, 20, p2mobiletext);
+            DisplayParticularText(1, 21, p3mobiletitle);
+            DisplayParticularText(4, 21, p3mobiletext);
+            DisplayParticularText(1, 22, p4mobiletitle);
+            DisplayParticularText(4, 22, p4mobiletext);
         }
     }
 }
