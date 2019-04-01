@@ -58,11 +58,11 @@
     <div class="navbar-inner collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav">
             <li><a href="/Index.aspx">Home</a></li>
-            <li><a href="/Story.aspx">Story</a></li>
-            <li><a href="/FAQ.aspx">FAQ</a></li>
             <li><a href="/BotanicalPower.aspx">Botanical Power</a></li>
             <li><a href="/AustralianLife.aspx">Australian LifeStyle</a></li>
             <li><a href="/AustralianMade.aspx">100% AUS Made</a></li>
+            <li><a href="/Story.aspx">Story</a></li>
+            <li><a href="/FAQ.aspx">FAQ</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
         <li><a id="wechat" href="#"><img src="Images/icon_wechat2.png" id="wx" onmouseover="show('img1')" onmouseout="hide('img1')" class="icon" /><img src="Images/qrcode_wechat.png" id="img1" /></a></li>

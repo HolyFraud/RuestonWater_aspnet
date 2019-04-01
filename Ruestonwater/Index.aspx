@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PublicMasterPage.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Ruestonwater.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <link href="CSS/Index.css" rel="stylesheet" />
     <script src="JS/jquery.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>
@@ -83,8 +84,9 @@
                     <br />
                     <br />
                     <h2><asp:Label ID="lbSection_2_Title" runat="server"></asp:Label></h2>
-                    <br />
-                    <h2><asp:Label ID="lbSection_2_Subtitle" runat="server"></asp:Label></h2><br />
+                    
+                    <h2><asp:Label ID="lbSection_2_Subtitle" runat="server"></asp:Label></h2>
+                    <div class="separator  transparent   " style="margin-top: 30px;margin-bottom: 0px;"></div>
                     <a>
                         <asp:Label ID="lbSection_2_Content" runat="server"></asp:Label>
                     </a>

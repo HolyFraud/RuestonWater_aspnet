@@ -265,9 +265,7 @@
                 font-family: Raleway, sans-serif;
                 font-size: 16px;
             }
-}
 
-@media only screen and (max-width: 768px) {
     #p3 {
         text-align: center;
     }
@@ -282,7 +280,7 @@
             padding: 50px 40px;
             right: 0;
             float: none;
-            bottom: 18%;
+            bottom: 25%;
         }
 
             #p3 #p3_text h1 {
@@ -294,9 +292,7 @@
                 font-family: Raleway, sans-serif;
                 font-size: 16px;
             }
-}
 
-@media only screen and (max-width: 768px) {
     #p4 {
         text-align: center;
     }

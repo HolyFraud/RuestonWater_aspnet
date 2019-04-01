@@ -35,6 +35,7 @@
             </div>
             <div class="p1_mobiletext" ClientIDMode="Static" runat="server">
                 <h1><asp:label id="p1mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <div class="separator  transparent   " style="margin-top: 30px;margin-bottom: 0px;"></div>
                 <p><asp:label id="p1mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
             </div>
         </div>
@@ -45,6 +46,7 @@
             </div>
             <div class="p2_mobiletext">
                 <h1><asp:label id="p2mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <div class="separator  transparent   " style="margin-top: 30px;margin-bottom: 0px;"></div>
                 <p><asp:label id="p2mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
             </div>
         </div>
@@ -55,6 +57,7 @@
             </div>
             <div class="p3_mobiletext">
                 <h1><asp:label id="p3mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <div class="separator  transparent   " style="margin-top: 30px;margin-bottom: 0px;"></div>
                 <p><asp:label id="p3mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
             </div>
         </div>
@@ -66,6 +69,7 @@
             </div>
             <div class="p4_mobiletext">
                 <h1><asp:label id="p4mobiletitle" clientidmode="static" runat="server" text=""></asp:label></h1>
+                <div class="separator  transparent   " style="margin-top: 30px;margin-bottom: 0px;"></div>
                 <p><asp:label id="p4mobiletext" clientidmode="static" runat="server" text=""></asp:label></p>
             </div>
         </div>
