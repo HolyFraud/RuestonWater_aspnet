@@ -1,6 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PublicMasterPage.Master" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="Ruestonwater.Index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Rueston Water - Botanical Power Water From Vegetables and Fruits</title>
+    <meta http-equiv="X-UA-compatible" content="IE=edge"/>    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
     <meta name="viewport" content="width=device-width, initial-scale=0.7">
+
     <link href="CSS/Index.css" rel="stylesheet" />
     <script src="JS/jquery.min.js"></script>
     <script src="JS/bootstrap.min.js"></script>

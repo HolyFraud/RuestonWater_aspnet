@@ -1,5 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PublicMasterPage.Master" AutoEventWireup="true" CodeBehind="AustralianMade.aspx.cs" Inherits="Ruestonwater.AustralianMade" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>100% Australian Made - Rueston Water - Botanical Power Water From Vegetables and Fruits</title>
+    <meta http-equiv="X-UA-compatible" content="IE=edge"/>    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+
+
     <link href="CSS/jquery.fullPage.css" rel="stylesheet" />
     <script src="JS/FullPage/jquery-2.2.0.min.js"></script>
     <script src="JS/FullPage/jquery.fullPage.min.js"></script>

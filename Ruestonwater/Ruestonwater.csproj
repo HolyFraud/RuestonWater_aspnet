@@ -60,6 +60,9 @@
   <ItemGroup>
     <Content Include="404.html" />
     <Content Include="Admin\AdminMasterPage.Master" />
+    <Content Include="Admin\Disclaimer.aspx" />
+    <Content Include="CSS\Disclaimer.css" />
+    <Content Include="Disclaimer.aspx" />
     <Content Include="Fonts\OpenSans\open-sans-condensed-v13-latin-300.svg" />
     <Content Include="Fonts\Raleway\raleway-v13-latin-300.eot" />
     <Content Include="Fonts\Raleway\raleway-v13-latin-300.ttf" />
@@ -207,6 +210,13 @@
     <Compile Include="Admin\BotanicalPower.aspx.designer.cs">
       <DependentUpon>BotanicalPower.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Disclaimer.aspx.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Disclaimer.aspx.designer.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\FAQ.aspx.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -255,6 +265,13 @@
     </Compile>
     <Compile Include="BotanicalPower.aspx.designer.cs">
       <DependentUpon>BotanicalPower.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.designer.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
     </Compile>
     <Compile Include="FAQ.aspx.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>

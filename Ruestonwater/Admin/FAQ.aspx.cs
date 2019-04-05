@@ -18,10 +18,6 @@ namespace Ruestonwater.Admin
             {
                 Response.Redirect("/Admin/Login.aspx");
             }
-            else
-            {
-
-            }
 
 
         }

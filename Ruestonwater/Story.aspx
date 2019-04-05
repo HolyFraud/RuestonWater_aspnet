@@ -1,5 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/PublicMasterPage.Master" AutoEventWireup="true" CodeBehind="Story.aspx.cs" Inherits="Ruestonwater.Story" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Story - Rueston Water - Botanical Power Water From Vegetables and Fruits</title>
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta content="yes" name="apple-mobile-web-app-capable" />
+    <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />
+    
     <link href="CSS/Stroy/Stroy.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -10,7 +18,7 @@
         <div class="content-text">
             <div class="content-img" runat="server" id="bg1">
             </div>
-            
+
             <p>
                 <asp:Label ClientIDMode="Static" ID="p1" runat="server" Text=""></asp:Label>
 
