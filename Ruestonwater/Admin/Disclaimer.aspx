@@ -90,7 +90,7 @@
                         <asp:TextBox ID="tb" runat="server" Rows="4" TextMode="MultiLine" Style="Width:540px;" Height="100px" Text='<%# Bind("DisclaimerContent") %>' />
                     </EditItemTemplate>
                 </asp:TemplateField>
-                <asp:CheckBoxField DataField="RecordState" HeaderText="RecordState" SortExpression="RecordState" />
+                <asp:CheckBoxField DataField="RecordState" HeaderText="IsActive" SortExpression="RecordState" />
                 <asp:CommandField ShowEditButton="True" />
                 <asp:TemplateField>
                     <ItemTemplate>

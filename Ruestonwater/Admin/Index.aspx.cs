@@ -107,7 +107,16 @@ namespace Ruestonwater.Admin
         {
             string FileName = ddlHomeSliderImg.SelectedItem.Text;
             PreviewImg.ImageUrl = "~/Images/home_slider/" + FileName;
-
+            string query = "Select Caption From FileCaptionList Where FileListID = " + ddlHomeSliderImg.SelectedValue;
+            SqlConnection sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["SQLConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand cmd = new SqlCommand(query, sqlConnection);
+            SqlDataReader reader = cmd.ExecuteReader();
+            if (reader.Read())
+            {
+                tbCaption.Text = reader[0].ToString();
+            }
+            
         }
 
 
@@ -115,7 +124,8 @@ namespace Ruestonwater.Admin
         {
             string FileName = ddlHomeSliderImg.SelectedItem.Text;
             string path = Server.MapPath("~/Images/home_slider/" + FileName);
-            string query = "Update FileList Set RecordState = 0 Where FileListID = " + ddlHomeSliderImg.SelectedValue;
+            string query = "Delete From FileList Where FileListID = " + ddlHomeSliderImg.SelectedValue;
+            //"Update FileList Set RecordState = 0 Where FileListID = " + ddlHomeSliderImg.SelectedValue;
             FileInfo file = new FileInfo(path);
             if (file.Exists)
             {

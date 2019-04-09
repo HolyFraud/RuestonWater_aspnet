@@ -5,7 +5,7 @@
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
     <meta content="email=no" name="format-detection" />
-
+    <meta name="keywords" content="Absolute Purification, Gift From Nature, Sustainability, Vegan Friendly"/>
     <link href="CSS/jquery.fullPage.css" rel="stylesheet" />
     <script src="JS/FullPage/jquery-2.2.0.min.js"></script>
     <script src="JS/FullPage/jquery.fullPage.min.js"></script>

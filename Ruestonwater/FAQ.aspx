@@ -5,7 +5,7 @@
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
     <meta content="email=no" name="format-detection" />
-
+    <meta content="FREQUENTLY ASKED QUESTIONS, What is Botanical Water"/>
     <link href="CSS/faq/faq.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

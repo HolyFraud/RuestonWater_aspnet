@@ -176,6 +176,8 @@
     <Content Include="JS\jquery.min.js" />
     <Content Include="JS\MasterPage\bootstrap.min.js" />
     <Content Include="JS\MasterPage\jquery.min.js" />
+    <Content Include="Robots.txt" />
+    <Content Include="seo\SiteMap.xml" />
     <Content Include="Story.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>

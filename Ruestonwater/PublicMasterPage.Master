@@ -6,12 +6,11 @@
     <title>Rueston Water - Botanical Power Water From Vegetables and Fruits</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-compatible" content="IE=edge"/>    <meta name="description" content="Rueston Water is a sparkling mineral water using the water harvested from the freshest Australian grown fruits and vegetables and at the same time extracts the concentrated juice with its award winning technology."/>
-    
+    <meta http-equiv="X-UA-compatible" content="IE=edge"/>    <meta name="description" content="Rueston Water is a sparkling mineral water using the water harvested from the freshest Australian grown fruits and vegetables and at the same time extracts the concentrated juice with its award winning technology."/>    <meta name="author" content="Shaun"/>
     <meta content="yes" name="apple-mobile-web-app-capable" />
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
-    <meta content="email=no" name="format-detection" />
+    <meta content="email=no" name="format-detection" />    <meta name="keywords" content="Rueston, Rueston Water, 如逸斯顿, Water From Fruits and Vegetables, Australian Water, Australian Made, 澳洲" />
 
 
     <link href="CSS/MasterPage/bootstrap.min.css" rel="stylesheet" />

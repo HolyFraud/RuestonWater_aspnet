@@ -72,8 +72,8 @@
                     DataSourceID="SqlDataSourceHomeSlider" DataTextField="FileName" DataValueField="FileListID"
                     AutoPostBack="true" OnSelectedIndexChanged="ddlHomeSliderImg_SelectedIndexChanged">
                 </asp:DropDownList>
-                <asp:Button ID="HomeSliderEditBtn" runat="server" Text="Edit" CssClass="btnleft"/>
-                <asp:Button ID="HomeSliderDelete" runat="server" Text="Delete" OnClick="HomeSliderDelete_Click" />
+                
+                <asp:Button ID="HomeSliderDelete" runat="server" CssClass="btnleft" Text="Delete" OnClick="HomeSliderDelete_Click" />
                 <br />
                 <br />
                 <asp:Image ID="PreviewImg" runat="server" CssClass="previewimg"  />

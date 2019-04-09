@@ -7,7 +7,8 @@
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
     <meta content="email=no" name="format-detection" />
-    
+    <meta name="keywords" content="Our Story, Australian award-winning, globally patented innovation"/>
+
     <link href="CSS/Stroy/Stroy.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">

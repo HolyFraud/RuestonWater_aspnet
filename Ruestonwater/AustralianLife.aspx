@@ -5,7 +5,7 @@
     <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
     <meta content="telephone=no" name="format-detection" />
     <meta content="email=no" name="format-detection" />
-
+    <meta content="Resource Heritage and Society Legacy, Harmony Between Human and Nature, Advocating of Sports and Exercise, The Love for Organic Products" name="keywords"/>
     
 
     <link href="CSS/jquery.fullPage.css" rel="stylesheet" />
